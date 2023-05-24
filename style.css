@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.gf1{
+    font-family: 'Rochester', cursive;
+}
+.gf2{
+    font-family: 'Sacramento', cursive;
+}
+.gf3{
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.back{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+#topnavbar {
+    /* height: 27px; */
+    background-color: rgb(235, 235, 235);
+    /* background-color: #1D1E1B; */
+}
+#navbarsec {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#feature h5 {
+    font-size: 16px;
+}
+#feature p {
+    font-size: 14px;
+}
+
+ul li a, ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+@media only screen and (min-width: 992px) {
+    #b_joinus {
+        padding: 3px 18px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    #signupform{
+        width: 50%;
+        /* transition: width 2s; */
+        /* background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    }
+    #signinform{
+        width: 50%;
+    }
+    
+    
+}
+@media only screen and (max-width: 992px) {
+    #navside {
+        margin-bottom: 10px;
+    }
+    #offcanvasNavbar{
+        /* background: rgba( 255, 255, 255, 0.05 ); */
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        /* backdrop-filter: blur( 10.5px );
+        -webkit-backdrop-filter: blur( 10.5px ); */
+        /* border-radius: 10px; */
+        /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    }
+    #signupform{
+        width: 75%;
+        /* transition: width 1s; */
+        /* background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    }
+    #signinform{
+        width: 75%;
+    }
+
+}
